@@ -1,6 +1,7 @@
 # imdb_551
 
-A bunch of different models on 25k Large Movie Review (IMDb) dataset.
+Several NLP models on 25k Large Movie Review (IMDb) dataset.
+
 Results are reported in the attached paper. 
 
 Install dependencies: pip install -r requirements.txt
