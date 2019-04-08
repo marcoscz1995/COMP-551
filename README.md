@@ -18,9 +18,9 @@ model’s performance on our sentiment analysis task.
 
 Modified MNIST number prediction
 
-In this paper we exploit ResNet's increased accuracy to predict images on the modied MNIST data set.
+In this paper we exploit ResNet's increased accuracy to predict images on the modified MNIST data set.
 However, due to computational restrictions we are forced to look for novel ways to cut on computational
-costs while maintaining a desired level of accuracy. This accuracy-cost trade-o is addressed by the SE-block
+costs while maintaining a desired level of accuracy. This accuracy-cost trade-off is addressed by the SE-block
 architectures that improve accuracy on shallower models at only a nominal increase in computational cost
 (Hu et al, 2018). By including SE-blocks in our shallow networks we were able to achieve high levels of
 accuracy comparable to deeper networks while using less computational power. In particular, we explore the
@@ -33,7 +33,7 @@ Hu et al. (2018) showed that by adding SE blocks to ResNet's, as SE-ResNet-50, i
 validation errors as the deeper ResNet-101 but at half the computational cost. They show that SE-blocks
 are 
 exible enought to be added to any model at only a nominal cost. Indeed, by adding SE-blocks to ResNets,
-Hu at al. (2018) received rst place using this method in the ILSVRC 2017 classication competition.
+Hu at al. (2018) received first place using this method in the ILSVRC 2017 classification competition.
 
 
 
